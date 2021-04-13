@@ -8,8 +8,19 @@ body {
   font-size: 20px;
   line-height: 24.38px; }
 
+/*.my
+	position: relative*/
+#check {
+  display: none; }
+
+/*.button_off
+	position: absolute
+	right: 15px*/
 .nav {
-  padding: 27px 0 27px 0; }
+  padding: 27px 0 27px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .nav img {
     margin-right: 45px; }
   .nav ol {
@@ -23,6 +34,8 @@ body {
       margin-right: 40px; }
       .nav ol li a {
         color: #222222; }
+    .nav ol li:last-child {
+      margin-right: 0; }
 
 .telephone_number {
   display: -webkit-box;
