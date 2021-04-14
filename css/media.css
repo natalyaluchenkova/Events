@@ -18,7 +18,13 @@
   .button_off {
     display: block; }
   .button_on {
-    margin-top: -16px; } }
+    margin-top: -16px; }
+  .upper_words {
+    font-size: 26px;
+    line-height: 32px; }
+  .arrange p {
+    font-size: 19px;
+    line-height: 27px; } }
 
 /* CSS äëÿ: 576px <= øèðèíû <= 767px */
 /* md-óñòðîéñòâà (áîëüøå èëè ðàâíî 768px) */
@@ -57,7 +63,7 @@
   .nav ol li {
     margin-right: 30px; }
   .telephone_number p {
-    margin-right: 15px;
+    margin-right: 13px;
     margin-left: -15px; } }
 
 /* CSS äëÿ: 992px <= øèðèíû <= 1119px */
