@@ -8,14 +8,78 @@ body {
   font-size: 20px;
   line-height: 24.38px; }
 
-/*.my
-	position: relative*/
 #check {
   display: none; }
 
-/*.button_off
-	position: absolute
-	right: 15px*/
+.button_off {
+  display: none; }
+
+.button_on {
+  display: none; }
+
+.tel_number_hide {
+  display: none; }
+
+label {
+  cursor: pointer; }
+
+.side_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 1; }
+
+.button_on {
+  padding: 165px 16px;
+  width: 320px;
+  height: 100vw;
+  background: rgba(18, 18, 18, 0.97);
+  position: absolute;
+  top: -55px;
+  right: 0;
+  z-index: 3; }
+  .button_on img {
+    position: absolute;
+    top: 41px;
+    right: 16px; }
+  .button_on ol li {
+    margin-bottom: 20px; }
+    .button_on ol li a {
+      font-size: 24px;
+      line-height: 29,26px;
+      color: white; }
+  .button_on ol li:last-child {
+    margin-bottom: 40px; }
+
+.tel_number_hide p {
+  font-size: 24px;
+  line-height: 29,26px;
+  color: white;
+  margin-bottom: 50px; }
+
+.tel_number_hide a {
+  font-size: 24px;
+  line-height: 29,26px;
+  color: white;
+  border: 3px solid white;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 10px 15px; }
+
+input + label > .button_on {
+  display: none; }
+
+input:checked + label > .button_off {
+  display: none; }
+
+input:checked + label > .button_on {
+  display: block; }
+
 .nav {
   padding: 27px 0 27px 0;
   display: -webkit-box;

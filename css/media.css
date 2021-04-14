@@ -4,9 +4,23 @@
   /* CSS äëÿ øèðèíû äî 575px (âêëþ÷èòåëüíî) */ }
 
 /* sm-óñòðîéñòâà (áîëüøå èëè ðàâíî 576px) */
-@media (min-width: 576px) {
-  /* CSS äëÿ: 576px <= øèðèíû <= 767px */ }
+@media (min-width: 576px) and (max-width: 768px) {
+  .tel_number_hide {
+    display: block; }
+  .nav ol {
+    display: none; }
+  .telephone_number {
+    display: none; }
+  .side_bar {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .button_off {
+    display: block; }
+  .button_on {
+    margin-top: -16px; } }
 
+/* CSS äëÿ: 576px <= øèðèíû <= 767px */
 /* md-óñòðîéñòâà (áîëüøå èëè ðàâíî 768px) */
 @media (min-width: 768px) and (max-width: 992px) {
   .head {
@@ -28,7 +42,9 @@
     width: 65px;
     margin-left: 62px; }
   .telephone_number p {
-    margin-right: 62px; } }
+    margin-right: 61px; }
+  .button_off {
+    display: block; } }
 
 /* CSS äëÿ: 768px <= øèðèíû <= 991px */
 /* lg-óñòðîéñòâà (áîëüøå èëè ðàâíî 992px) */

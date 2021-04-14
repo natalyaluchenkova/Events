@@ -3,15 +3,64 @@ body
 .head	
 	align-items: center	
 	font-size: 20px
-	line-height: 24.38px
-/*.my
-	position: relative*/
+	line-height: 24.38px	
 #check
 	display: none
-/*.button_off
+.button_off
+	display: none
+.button_on
+	display: none
+.tel_number_hide
+	display: none
+label
+	cursor: pointer
+.side_bar
+	display: flex
+	align-items: center
+	position: relative
+	z-index: 1
+.button_on
+	padding: 165px 16px
+	width: 320px
+	height: 100vw
+	background: rgba(18, 18, 18, 0.97)
 	position: absolute
-	right: 15px*/
-	
+	top: -55px
+	right: 0
+	z-index: 3	
+	img 
+		position: absolute
+		top: 41px
+		right: 16px
+	ol		
+		li
+			margin-bottom: 20px
+			a 
+				font-size: 24px
+				line-height: 29,26px
+				color: white
+		li:last-child 
+			margin-bottom: 40px
+.tel_number_hide
+	p 
+		font-size: 24px
+		line-height: 29,26px
+		color: white
+		margin-bottom: 50px
+	a 
+		font-size: 24px
+		line-height: 29,26px
+		color: white
+		border: 3px solid white
+		box-sizing: border-box
+		border-radius: 15px
+		padding: 10px 15px
+input + label > .button_on
+	display: none
+input:checked + label > .button_off
+	display: none
+input:checked + label > .button_on
+	display: block
 .nav
 	padding: 27px 0 27px 0
 	display: flex
@@ -25,8 +74,7 @@ body
 			a 
 				color: #222222
 		li:last-child
-			margin-right: 0
-						
+			margin-right: 0						
 .telephone_number
 	display: flex
 	justify-content: flex-end
