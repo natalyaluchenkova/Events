@@ -22,12 +22,16 @@ label
 .button_on
 	padding: 165px 16px
 	width: 320px
-	height: 100vw
+	
 	background: rgba(18, 18, 18, 0.97)
 	position: absolute
 	top: -55px
 	right: 0
-	z-index: 3	
+	z-index: 3
+	height: 100vw
+	ol
+		li:last-child 
+			
 	img 
 		position: absolute
 		top: 41px
@@ -95,7 +99,7 @@ input:checked + label > .button_on
 			color: white
 			text-decoration: none
 .big_img
-	background: white url('../img/Rectangle_2.png') no-repeat center center fixed;
+	background: white url('../img/Rectangle_2.png') no-repeat center center fixed
 	min-height: 729px
 	color: white
 .arrange
@@ -118,5 +122,32 @@ input:checked + label > .button_on
 	text-transform: uppercase
 	margin-top: 143px
 	margin-bottom: 30px
+.Who_We_Are
+	h2
+		font-size: 30px
+		line-height: 37px
+		font-weight: bold
+		color: #5C2DBB
+		margin-top: 50px
+		margin-bottom: 75px
+	p 
+		font-size: 20px
+		line-height: 27px
+		color: #222222
+		margin-right: -15px
+	p:last-child
+		margin-top: 30px
+.Who_We_Are_pict
+	display: flex
+	justify-content: flex-end	
+	img:first-child
+		margin-top: 162px
+		margin-right: 30px
+	img:last-child
+		margin-top: 117px	
+.Who_We_Are_pict_small	
+	display: none
+
+
 
 		
