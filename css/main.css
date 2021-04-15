@@ -203,6 +203,9 @@ figcaption {
   line-height: 24px;
   color: #222222; }
 
+figcaption:last-child {
+  margin-bottom: 0; }
+
 .event_1 {
   margin-top: 30px; }
 
@@ -221,3 +224,21 @@ figcaption {
 .events_picture img {
   width: 350px;
   height: 406px; }
+
+.Recent_Events {
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.events_small img {
+  width: 255px;
+  height: 298px;
+  margin-bottom: 30px; }
+
+.recent_event_2 img {
+  width: 540px;
+  height: 298px;
+  margin-bottom: 30px; }
+
+.events_middle img {
+  width: 350px;
+  height: 298px; }
