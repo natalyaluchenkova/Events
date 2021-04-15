@@ -25,9 +25,10 @@
   .arrange p {
     font-size: 19px;
     line-height: 27px; }
-  .Who_We_Are h2 {
+  .name_of_article {
     font-size: 22px;
-    line-height: 27px;
+    line-height: 27px; }
+  .Who_We_Are h2 {
     margin-bottom: 30px; }
   .Who_We_Are p {
     font-size: 16px;
@@ -42,7 +43,23 @@
     text-align: right; }
     .Who_We_Are_pict_small img:first-child {
       margin-top: 107px;
-      margin-bottom: 15px; } }
+      margin-bottom: 15px; }
+  .event_1 {
+    margin-top: 17px; }
+  figcaption {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 34px; }
+  .events_picture img {
+    width: 229px;
+    height: 264px; }
+  .event_3 {
+    margin-top: -59px; }
+  .event_4, .event_6 {
+    margin-top: 0; }
+  .event_5 {
+    margin-top: -59px; } }
 
 /* CSS äëÿ: 576px <= øèðèíû <= 767px */
 /* md-óñòðîéñòâà (áîëüøå èëè ðàâíî 768px) */
@@ -69,9 +86,10 @@
     margin-right: 61px; }
   .button_off {
     display: block; }
-  .Who_We_Are h2 {
+  .name_of_article {
     font-size: 26px;
-    line-height: 32px;
+    line-height: 32px; }
+  .Who_We_Are h2 {
     margin-bottom: 73px; }
   .Who_We_Are p {
     font-size: 18px;
@@ -83,7 +101,13 @@
     margin-top: 112px; }
   .Who_We_Are_pict img:first-child {
     margin-top: 155px;
-    margin-right: 18px; } }
+    margin-right: 18px; }
+  figcaption {
+    font-size: 18px;
+    line-height: 22px; }
+  .events_picture img {
+    width: 215px;
+    height: 308px; } }
 
 /* CSS äëÿ: 768px <= øèðèíû <= 991px */
 /* lg-óñòðîéñòâà (áîëüøå èëè ðàâíî 992px) */
@@ -99,7 +123,10 @@
     margin-right: 13px;
     margin-left: -15px; }
   .Who_We_Are_pict img {
-    width: 297px; } }
+    width: 297px; }
+  .events_picture img {
+    width: 290px;
+    height: 406px; } }
 
 /* CSS äëÿ: 992px <= øèðèíû <= 1119px */
 /* xl-óñòðîéñòâà (áîëüøå èëè ðàâíî 1200px) */
