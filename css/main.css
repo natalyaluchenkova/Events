@@ -293,3 +293,45 @@ input:checked + label > .button_on {
   .team figcaption span {
     font-size: 20px;
     line-height: 24px; }
+
+.background_footer {
+  background: #404040;
+  height: 420px;
+  margin-top: 50px; }
+
+.contacts {
+  font-size: 26px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-top: 82px;
+  margin-left: 245px; }
+  .contacts li {
+    margin-bottom: 16px; }
+    .contacts li img {
+      margin-right: 27.5px; }
+
+.contact_links {
+  margin-left: 75px;
+  margin-top: 105px; }
+  .contact_links li a {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 15px; }
+  .contact_links li:last-child {
+    margin-top: 85px; }
+  .contact_links li:first-child a {
+    padding: 23px 35px; }
+  .contact_links li:last-child a {
+    padding: 23px 28px; }
+
+.save_rights {
+  font-size: 26px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 55px; }

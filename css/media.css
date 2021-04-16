@@ -95,7 +95,58 @@
     background-size: cover;
     height: 276px;
     border-radius: 15px;
-    background-position: 0 -35px; } }
+    background-position: 0 -35px; }
+  .team img {
+    width: 239px; }
+  .team figcaption {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px; }
+    .team figcaption span {
+      font-size: 12px;
+      line-height: 15px; }
+  .staff_1 {
+    margin-top: 75px; }
+    .staff_1 figcaption {
+      bottom: 3.5%; }
+  .staff_2 {
+    margin-top: 30px; }
+    .staff_2 figcaption {
+      bottom: 14.5%; }
+  .staff_3 {
+    margin-top: 30px; }
+    .staff_3 figcaption {
+      bottom: 4%; }
+  .staff_4 {
+    margin-top: -15px; }
+    .staff_4 figcaption {
+      bottom: 16.5%; }
+  .staff_5 {
+    margin-top: 30px; }
+    .staff_5 figcaption {
+      bottom: 3.5%; }
+  .staff_6 {
+    margin-top: -15px; }
+    .staff_6 figcaption {
+      bottom: 16.5%; }
+  .contacts {
+    font-size: 20px;
+    line-height: 28px; }
+  .contact_links li a {
+    font-size: 16px;
+    line-height: 20px; }
+  .save_rights {
+    font-size: 22px;
+    line-height: 31px;
+    margin-top: 30px; }
+  .contacts {
+    margin-left: 0; }
+  .contact_links {
+    margin-left: 0; }
+    .contact_links li:first-child a {
+      padding: 20px 30px; }
+    .contact_links li:last-child a {
+      padding: 20px 23px; } }
 
 /* CSS äëÿ: 576px <= øèðèíû <= 767px */
 /* md-óñòðîéñòâà (áîëüøå èëè ðàâíî 768px) */
@@ -172,7 +223,28 @@
     background-image: url("../img/small_under.png");
     background-repeat: no-repeat;
     height: 298px;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  .team img {
+    width: 210px; }
+  .team figcaption {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px; }
+    .team figcaption span {
+      font-size: 14px;
+      line-height: 17px; }
+  .staff_2 figcaption {
+    bottom: 14.5%; }
+  .staff_3 figcaption {
+    bottom: 25.5%; }
+  .staff_5 figcaption {
+    bottom: 18.5%; }
+  .staff_6 figcaption {
+    bottom: 32.5%; }
+  .contacts {
+    margin-left: 70px; }
+  .contact_links {
+    margin-left: 35px; } }
 
 /* CSS äëÿ: 768px <= øèðèíû <= 991px */
 /* lg-óñòðîéñòâà (áîëüøå èëè ðàâíî 992px) */
@@ -200,7 +272,23 @@
     height: 298px; }
   .events_middle img {
     width: 290px;
-    height: 298px; } }
+    height: 298px; }
+  .team img {
+    width: 290px; }
+  .team figcaption {
+    padding: 16px; }
+  .staff_2 figcaption {
+    bottom: 12%; }
+  .staff_3 figcaption {
+    bottom: 21%; }
+  .staff_5 figcaption {
+    bottom: 14.5%; }
+  .staff_6 figcaption {
+    bottom: 25%; }
+  .contacts {
+    margin-left: 170px; }
+  .contact_links {
+    margin-left: 90px; } }
 
 /* CSS äëÿ: 992px <= øèðèíû <= 1119px */
 /* xl-óñòðîéñòâà (áîëüøå èëè ðàâíî 1200px) */
