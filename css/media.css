@@ -46,14 +46,14 @@
       margin-bottom: 15px; }
   .event_1 {
     margin-top: 17px; }
-  figcaption {
+  .events_picture img {
+    width: 229px;
+    height: 264px; }
+  .events_picture figcaption {
     font-size: 16px;
     line-height: 20px;
     margin-top: 20px;
     margin-bottom: 34px; }
-  .events_picture img {
-    width: 229px;
-    height: 264px; }
   .event_3 {
     margin-top: -59px; }
   .event_4, .event_6 {
@@ -74,13 +74,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 276px;
-    border-radius: 15px; }
+    border-radius: 15px;
+    background-position: 0 -35px; }
   .recent_event_4 {
     background-image: url("../img/small_pool.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 276px;
-    border-radius: 15px; }
+    border-radius: 15px;
+    background-position: 0 -35px; }
   .recent_event_5 {
     background-image: url("../img/small_spider.png");
     background-repeat: no-repeat;
@@ -92,7 +94,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 276px;
-    border-radius: 15px; } }
+    border-radius: 15px;
+    background-position: 0 -35px; } }
 
 /* CSS äëÿ: 576px <= øèðèíû <= 767px */
 /* md-óñòðîéñòâà (áîëüøå èëè ðàâíî 768px) */
@@ -135,12 +138,12 @@
   .Who_We_Are_pict img:first-child {
     margin-top: 155px;
     margin-right: 18px; }
-  figcaption {
-    font-size: 18px;
-    line-height: 22px; }
   .events_picture img {
     width: 215px;
     height: 308px; }
+  .events_picture figcaption {
+    font-size: 18px;
+    line-height: 22px; }
   .Recent_Events {
     margin-top: 52px; }
   .events_small img {

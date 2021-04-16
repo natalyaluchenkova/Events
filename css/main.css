@@ -196,16 +196,6 @@ input:checked + label > .button_on {
 .Events_Variety {
   margin-top: 50px; }
 
-figcaption {
-  margin-top: 25px;
-  margin-bottom: 30px;
-  font-size: 20px;
-  line-height: 24px;
-  color: #222222; }
-
-figcaption:last-child {
-  margin-bottom: 0; }
-
 .event_1 {
   margin-top: 30px; }
 
@@ -225,6 +215,16 @@ figcaption:last-child {
   width: 350px;
   height: 406px; }
 
+.events_picture figcaption {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222; }
+
+.last_figcaption {
+  margin-bottom: 0; }
+
 .Recent_Events {
   margin-top: 50px;
   margin-bottom: 30px; }
@@ -242,3 +242,54 @@ figcaption:last-child {
 .events_middle img {
   width: 350px;
   height: 298px; }
+
+.our_team {
+  margin-top: 50px; }
+
+.staff_1 {
+  margin-top: 120px; }
+  .staff_1 figcaption {
+    bottom: 3.5%; }
+
+.staff_2 {
+  margin-top: 75px; }
+  .staff_2 figcaption {
+    bottom: 11%; }
+
+.staff_3 {
+  margin-top: 30px; }
+  .staff_3 figcaption {
+    bottom: 18.5%; }
+
+.staff_4 {
+  margin-top: 30px; }
+  .staff_4 figcaption {
+    bottom: 4%; }
+
+.staff_5 {
+  margin-top: -15px; }
+  .staff_5 figcaption {
+    bottom: 13%; }
+
+.staff_6 {
+  margin-top: -60px; }
+  .staff_6 figcaption {
+    bottom: 22%; }
+
+.team img {
+  position: relative;
+  width: 350px; }
+
+.team figcaption {
+  font-size: 26px;
+  line-height: 32px;
+  background: rgba(92, 45, 187, 0.9);
+  border-radius: 15px;
+  color: #FFFFFF;
+  padding: 23px;
+  width: 80%;
+  position: absolute;
+  left: 10%; }
+  .team figcaption span {
+    font-size: 20px;
+    line-height: 24px; }
