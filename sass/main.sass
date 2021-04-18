@@ -10,8 +10,6 @@ body
 	display: none
 .button_on
 	display: none
-.tel_number_hide
-	display: none
 label
 	cursor: pointer
 .side_bar
@@ -20,44 +18,46 @@ label
 	position: relative
 	z-index: 1
 .button_on
-	padding: 165px 16px
-	width: 320px	
+	padding: 170px 16px
+	width: 40%	
 	background: rgba(18, 18, 18, 0.97)
-	position: absolute
-	top: -55px
+	position: fixed
+	top: 0
 	right: 0
-	z-index: 3
-	height: 100vw
-	ol
-		li:last-child			
+	z-index: 3				
 	img 
 		position: absolute
 		top: 41px
 		right: 16px
-	ol		
+	ol	
+		height: 100vh
 		li
-			margin-bottom: 20px
+			margin-bottom: 25px
 			a 
 				font-size: 24px
 				line-height: 29,26px
 				color: white
-		li:last-child 
+				width: 100%
+				display: block
+		li:nth-child(4)
 			margin-bottom: 40px
-.tel_number_hide
-	p 
-		font-size: 24px
-		line-height: 29,26px
-		color: white
-		margin-bottom: 50px
-	a 
-		font-size: 24px
-		line-height: 29,26px
-		color: white
-		border: 3px solid white
-		box-sizing: border-box
-		border-radius: 15px
-		padding: 10px 15px
-		font-weight: bold
+		li:last-child
+			display: none
+			p 
+				font-size: 24px
+				line-height: 29,26px
+				color: white
+				margin-bottom: 40px
+			a 
+				font-size: 24px
+				line-height: 29,26px
+				color: white
+				border: 3px solid white
+				box-sizing: border-box
+				border-radius: 15px
+				padding: 15px 17px
+				width: 65%
+				font-weight: bold
 input + label > .button_on
 	display: none
 input:checked + label > .button_off
@@ -100,6 +100,8 @@ input:checked + label > .button_on
 	background: white url('../img/Rectangle_2.png') no-repeat center center fixed
 	min-height: 729px
 	color: white
+	background-position: 0 -200px
+	background-size: cover
 .arrange
 	p 
 		font-size: 27px
@@ -163,8 +165,7 @@ input:checked + label > .button_on
 	margin-top: -45px
 .events_picture
 	img 
-		width: 350px
-		height: 406px
+		width: 100%		
 	figcaption
 		margin-top: 25px
 		margin-bottom: 30px
@@ -173,23 +174,22 @@ input:checked + label > .button_on
 		color: #222222
 .last_figcaption
 	margin-bottom: 0
+.kids_2
+	display: none
 .Recent_Events
 	margin-top: 50px
 	margin-bottom: 30px
 .events_small
 	img
-		width: 255px
-		height: 298px
-		margin-bottom: 30px
-.recent_event_2
-	img 
-		width: 540px
-		height: 298px
+		width: 255px		
 		margin-bottom: 30px
 .events_middle
 	img 
-		width: 350px
-		height: 298px
+		width: 350px		
+.recent_event_2
+	img 
+		width: 540px		
+		margin-bottom: 30px
 .our_team
 	margin-top: 50px
 .staff_1
@@ -233,6 +233,46 @@ input:checked + label > .button_on
 		span 
 			font-size: 20px
 			line-height: 24px
+.over_plate
+	width: 350px
+	height: 479px
+	background: rgba(92, 45, 187, 0.8)
+	border-radius: 15px
+	position: absolute
+	left: 15px	
+	color: #FFFFFF
+	padding: 0 27px
+	display: flex
+	flex-direction: column
+	justify-content: center
+	display: none
+	h3 
+		font-size: 28px
+		line-height: 34px
+		margin-bottom: 20px		
+		span 
+			font-size: 22px
+			line-height: 27px
+			margin-top: 5px
+	p 
+		font-size: 22px
+		line-height: 31px
+.over_1
+	top: 120px	
+.over_2
+	top: 75px	
+.over_3
+	top: 30px	
+.over_4
+	top: 30px	
+.over_5
+	top: -15px	
+.over_6
+	top: -60px	
+.team:hover > .over_plate
+	display: flex
+.team:hover > .hide
+	display: none
 .background_footer
 	background: #404040
 	height: 420px
@@ -247,6 +287,12 @@ input:checked + label > .button_on
 		margin-bottom: 16px
 		img 
 			margin-right: 27.5px
+		ul
+			display: flex
+			li 
+				a 
+					width: 61%
+					display: block
 .contact_links
 	margin-left: 75px
 	margin-top: 105px

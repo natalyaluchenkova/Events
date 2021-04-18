@@ -5,10 +5,12 @@
 
 /* sm-óñòðîéñòâà (áîëüøå èëè ðàâíî 576px) */
 @media (min-width: 576px) and (max-width: 768px) {
-  .tel_number_hide {
-    display: block; }
-  .nav ol {
-    display: none; }
+  .nav {
+    padding: 16px 0 16px 0; }
+    .nav ol {
+      display: none; }
+    .nav img {
+      width: 90px; }
   .telephone_number {
     display: none; }
   .side_bar {
@@ -18,7 +20,15 @@
   .button_off {
     display: block; }
   .button_on {
-    margin-top: -16px; }
+    margin-top: -16px;
+    width: 60%; }
+    .button_on ol li:last-child {
+      display: block; }
+  .big_img {
+    background: white url("../img/Background_2.png") no-repeat center center fixed;
+    min-height: 729px;
+    background-size: cover;
+    background-position: -150px -200px; }
   .upper_words {
     font-size: 26px;
     line-height: 32px; }
@@ -63,12 +73,16 @@
   .Recent_Events {
     margin-top: 54px; }
   .events_small img {
-    width: 239px;
-    height: 276px; }
-  .events_middle img {
+    width: 239px; }
+  .events_middle img, .events_small img, .recent_event_2 img {
     display: none; }
-  .recent_event_2 img {
-    display: none; }
+  .recent_event_1 {
+    background-image: url("../img/small_pink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 276px;
+    border-radius: 15px;
+    margin-bottom: 30px; }
   .recent_event_2 {
     background-image: url("../img/Small_party.png");
     background-repeat: no-repeat;
@@ -76,6 +90,13 @@
     height: 276px;
     border-radius: 15px;
     background-position: 0 -35px; }
+  .recent_event_3 {
+    background-image: url("../img/small_sixteen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 276px;
+    border-radius: 15px;
+    margin-bottom: 30px; }
   .recent_event_4 {
     background-image: url("../img/small_pool.png");
     background-repeat: no-repeat;
@@ -129,6 +150,10 @@
     margin-top: -15px; }
     .staff_6 figcaption {
       bottom: 16.5%; }
+  .team:hover > .over_plate {
+    display: none; }
+  .team:hover > .hide {
+    display: block; }
   .contacts {
     font-size: 20px;
     line-height: 28px; }
@@ -173,6 +198,11 @@
     margin-right: 61px; }
   .button_off {
     display: block; }
+  .big_img {
+    background: white url("../img/Background_2.png") no-repeat center center fixed;
+    min-height: 729px;
+    background-size: cover;
+    background-position: -100px -150px; }
   .name_of_article {
     font-size: 26px;
     line-height: 32px; }
@@ -191,24 +221,36 @@
     margin-right: 18px; }
   .events_picture img {
     width: 215px;
-    height: 308px; }
+    height: 270px; }
   .events_picture figcaption {
     font-size: 18px;
     line-height: 22px; }
+  .kids_1 {
+    display: none; }
+  .kids_2 {
+    display: block; }
   .Recent_Events {
     margin-top: 52px; }
-  .events_small img {
-    width: 210px;
-    height: 298px; }
-  .events_middle img {
+  .events_middle img, .events_small img, .recent_event_2 img {
     display: none; }
-  .recent_event_2 img {
-    display: none; }
+  .recent_event_1 {
+    background-image: url("../img/small_pink.png");
+    background-repeat: no-repeat;
+    height: 298px;
+    border-radius: 15px;
+    margin-bottom: 30px; }
   .recent_event_2 {
     background-image: url("../img/Small_party.png");
     background-repeat: no-repeat;
     height: 298px;
-    border-radius: 15px; }
+    border-radius: 15px;
+    margin-bottom: 30px; }
+  .recent_event_3 {
+    background-image: url("../img/small_sixteen.png");
+    background-repeat: no-repeat;
+    height: 298px;
+    border-radius: 15px;
+    margin-bottom: 30px; }
   .recent_event_4 {
     background-image: url("../img/small_pool.png");
     background-repeat: no-repeat;
@@ -241,6 +283,10 @@
     bottom: 18.5%; }
   .staff_6 figcaption {
     bottom: 32.5%; }
+  .team:hover > .over_plate {
+    display: none; }
+  .team:hover > .hide {
+    display: block; }
   .contacts {
     margin-left: 70px; }
   .contact_links {
@@ -259,20 +305,26 @@
   .telephone_number p {
     margin-right: 13px;
     margin-left: -15px; }
+  .big_img {
+    background: white url("../img/Background_2.png") no-repeat center center fixed;
+    min-height: 729px;
+    background-size: cover;
+    background-position: 0 -200px; }
   .Who_We_Are_pict img {
     width: 297px; }
   .events_picture img {
     width: 290px;
-    height: 406px; }
+    height: 380px; }
+  .kids_1 {
+    display: none; }
+  .kids_2 {
+    display: block; }
   .events_small img {
-    width: 210px;
-    height: 298px; }
+    width: 210px; }
   .recent_event_2 img {
-    width: 450px;
-    height: 298px; }
+    width: 450px; }
   .events_middle img {
-    width: 290px;
-    height: 298px; }
+    width: 290px; }
   .team img {
     width: 290px; }
   .team figcaption {
@@ -285,6 +337,10 @@
     bottom: 14.5%; }
   .staff_6 figcaption {
     bottom: 25%; }
+  .team:hover > .over_plate {
+    display: none; }
+  .team:hover > .hide {
+    display: block; }
   .contacts {
     margin-left: 170px; }
   .contact_links {
