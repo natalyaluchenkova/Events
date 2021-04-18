@@ -2,4 +2,6 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"); }
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"),
+  			url('../Fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+  			url('../Fonts/Montserrat/Montserrat-Regular.otf') format('OpenType'); }
