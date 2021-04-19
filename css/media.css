@@ -178,7 +178,7 @@
         padding: 20px 16px; } }
 
 /* sm-óñòðîéñòâà (áîëüøå èëè ðàâíî 576px) */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .nav {
     padding: 16px 0 16px 0; }
     .nav ol {
@@ -202,7 +202,7 @@
     background: white url("../img/background_small.png") no-repeat center center fixed;
     min-height: 729px;
     background-size: cover;
-    background-position: 0 -200px; }
+    background-position: 0 -290px; }
   .upper_words {
     font-size: 26px;
     line-height: 32px; }
@@ -346,7 +346,7 @@
 
 /* CSS äëÿ: 576px <= øèðèíû <= 767px */
 /* md-óñòðîéñòâà (áîëüøå èëè ðàâíî 768px) */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   input:checked + label > .button_off {
     display: none; }
   input:checked + label > .button_on {
@@ -469,7 +469,7 @@
 
 /* CSS äëÿ: 768px <= øèðèíû <= 991px */
 /* lg-óñòðîéñòâà (áîëüøå èëè ðàâíî 992px) */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .head {
     font-size: 18px;
     line-height: 21.94px; }
@@ -484,7 +484,7 @@
     background: white url("../img/Background_2.png") no-repeat center center fixed;
     min-height: 729px;
     background-size: cover;
-    background-position: 0 -200px; }
+    background-position: 0 -230px; }
   .Who_We_Are_pict img {
     width: 297px; }
   .events_picture img {
